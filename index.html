@@ -10,8 +10,11 @@
 </head>
 <body>
     <div id="root" class="container">
-        <message title="Hello world" body="Lorem Ipsum dolar amet sit" ></message>
-        <message title="Hello Mars" body="Ha ha ha ha ha" ></message>
+       <modal v-if="showModal" @close="showModal = false">
+           <p>We insert any text here.</p>
+       </modal>
+
+       <button @click="showModal = true">Show Modal</button>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
