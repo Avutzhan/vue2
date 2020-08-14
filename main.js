@@ -1,20 +1,31 @@
-Vue.component('task-list', {
-    template: '<div><task v-for="task in tasks">{{ task.task }}</task></div>',
-
+Vue.component('message', {
+    props: ['title', 'body'],
+    
     data() {
         return {
-            tasks: [
-                { task: 'go to shop', complete: true },
-                { task: 'go to mall', complete: false },
-                { task: 'go to bazar', complete: true },
-                { task: 'go to toilet', complete: false },
-            ]
-        }
-    }
-});
+            isVisible: true
+        };
+    },
 
-Vue.component('task', {
-    template: '<li><slot></slot></li>'
+    template: `
+        <article class="message" v-show="isVisible">
+            <div class="message-header">
+                {{title}}
+
+                <button type="button" @click="isVisible = false">x</button>
+            </div>
+
+            <div class="message-body">
+                {{body}}
+            </div>
+        </article>
+    `,
+
+    // methods: {
+    //     hideModal() {
+    //         this.isVisible = false;
+    //     }
+    // }
 });
 
 new Vue({
