@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('skills', function () {
     return ['laravel', 'vue', 'php', 'javascript'];
 });
+
+Route::get('/projects/create', 'ProjectController@create');
+Route::post('/projects', 'ProjectController@store');
+
