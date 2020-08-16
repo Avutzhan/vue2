@@ -12,6 +12,7 @@
 <div id="app" class="container">
     @include('projects.list')
 
+    <example></example>
     <form method="POST" action="/projects" @submit.prevent="onSubmit" @keydown="form.errors.clear($event.target.name)">
         @csrf
         <div class="control">
@@ -36,9 +37,10 @@
     </form>
 </div>
 
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
+{{--<script src="https://unpkg.com/axios/dist/axios.min.js"></script>--}}
+{{--<script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>--}}
 <script src="/js/app.js"></script>
+<script src="/js/vendor.js"></script>
 
 </body>
 </html>
