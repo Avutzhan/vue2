@@ -14,9 +14,21 @@
     </head>
     <body>
 
-        <div id="app">
-            <notification></notification>
+        <div id="one">
+            <h1>
+                @{{ shared.user.name }}
+                @{{ foo }}
+            </h1>
         </div>
+
+        <div id="two">
+            <h1>
+                @{{ shared.user.name }}
+                @{{ foo }}
+            </h1>
+        </div>
+
+
         <script src="/js/app.js"></script>
     </body>
 </html>
