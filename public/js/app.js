@@ -12583,23 +12583,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 
-var store = {
-  user: {
-    name: 'Mohn Doe'
-  }
-};
-new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
-  el: '#one',
-  data: {
-    foo: 'bar',
-    shared: store
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('coupon', {
+  props: ['code'],
+  template: "\n        <input type=\"text\" :value=\"code\" @input=\"updateCode($event.target.value)\" ref=\"input\">\n    ",
+  data: function data() {
+    return {
+      invalids: ['ALL', 'MALL', 'BALL']
+    };
+  },
+  methods: {
+    updateCode: function updateCode(code) {
+      if (this.invalids.includes(code)) {
+        alert('invalid coupon');
+        this.$refs.input.value = code = '';
+      }
+
+      this.$emit('input', code);
+    }
   }
 });
 new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
-  el: '#two',
+  el: '#app',
   data: {
-    foo: 'other bar',
-    shared: store
+    coupon: 'FREEBITE'
   }
 });
 

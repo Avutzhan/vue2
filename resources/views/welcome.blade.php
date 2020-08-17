@@ -14,20 +14,12 @@
     </head>
     <body>
 
-        <div id="one">
-            <h1>
-                @{{ shared.user.name }}
-                @{{ foo }}
-            </h1>
-        </div>
+        <div id="app">
+{{--            <input type="text" v-model="coupon">--}}
+{{--            <input type="text" :value="coupon" @input="coupon = $event.target.value">--}}
 
-        <div id="two">
-            <h1>
-                @{{ shared.user.name }}
-                @{{ foo }}
-            </h1>
+            <coupon v-model="coupon">
         </div>
-
 
         <script src="/js/app.js"></script>
     </body>

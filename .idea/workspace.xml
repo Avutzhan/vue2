@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53f6d608-3d57-4c7b-aebd-0c1c9bad75ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
@@ -186,7 +185,7 @@
       <workItem from="1597465021647" duration="59000" />
       <workItem from="1597545797024" duration="6728000" />
       <workItem from="1597565207434" duration="17565000" />
-      <workItem from="1597645290176" duration="1828000" />
+      <workItem from="1597645290176" duration="2973000" />
     </task>
     <task id="LOCAL-00001" summary="Vue Ajax Requests With Axios">
       <created>1597547017276</created>
@@ -237,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597595296866</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Shared State 101">
+      <created>1597649208051</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597649208052</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +272,18 @@
     <MESSAGE value="Webpack Config From Scratch" />
     <MESSAGE value="Clean up" />
     <MESSAGE value="This is Laravel Mix" />
-    <option name="LAST_COMMIT_MESSAGE" value="This is Laravel Mix" />
+    <MESSAGE value="Shared State 101" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shared State 101" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/welcome.blade.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
