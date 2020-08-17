@@ -5,6 +5,7 @@
     "dev": "webpack --hide-modules --progress --watch"
   },
   "devDependencies": {
+    "webpack": "2.2.1",
     "axios": "^0.15.2",
     "laravel-mix": "^0.3.0",
     "vue": "^2.0.1",
