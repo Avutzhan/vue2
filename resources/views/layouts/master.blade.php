@@ -14,15 +14,11 @@
 <body>
 
     <div id="app">
-        @include('layouts.header')
-
-        <section class="section">
-            <div class="container">
-                <router-view></router-view>
-            </div>
-
-        </section>
-
+        <menu-list :items="['one', 'two']">
+            <template slot="menu-item" scope="props">
+                <h2 v-text="props.item"></h2>
+            </template>
+        </menu-list>
     </div>
 
 <script src="/js/app.js"></script>
