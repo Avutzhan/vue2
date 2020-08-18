@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53f6d608-3d57-4c7b-aebd-0c1c9bad75ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vue2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/components/Carousel.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/AddToStream.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/models/Status.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/utilities/Errors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/utilities/Form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/views/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/views/Contact.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/Example.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -207,7 +198,7 @@
       <workItem from="1597545797024" duration="6728000" />
       <workItem from="1597565207434" duration="17565000" />
       <workItem from="1597645290176" duration="24898000" />
-      <workItem from="1597725353540" duration="2723000" />
+      <workItem from="1597725353540" duration="5335000" />
     </task>
     <task id="LOCAL-00001" summary="Vue Ajax Requests With Axios">
       <created>1597547017276</created>
@@ -321,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597679292174</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Scoped Slots">
+      <created>1597728631591</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1597728631591</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +359,8 @@
     <MESSAGE value="Vue Filters" />
     <MESSAGE value="Dedicated Form Components" />
     <MESSAGE value="Testing Vue: Part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing Vue: Part 1" />
+    <MESSAGE value="Scoped Slots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scoped Slots" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

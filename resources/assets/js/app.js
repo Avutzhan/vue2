@@ -9,7 +9,7 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('menu-list', require('./components/Example.vue'));
+Vue.component('carousel', require('./components/Carousel.vue'));
 
 const app = new Vue({
     el: '#app'
