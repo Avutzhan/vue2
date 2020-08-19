@@ -11,9 +11,20 @@
 
 </head>
 <body>
-    <div id="app">
+    <div id="app" style="padding-top: 2000px">
 
-        <example-component></example-component>
+        <div>
+            <example-component :to="11"></example-component>
+        </div>
+
+        <div>
+            <example-component :to="500"></example-component>
+        </div>
+
+        <div>
+            <example-component :to="1955"></example-component>
+        </div>
+
     </div>
 
 <script src="/js/app.js"></script>
